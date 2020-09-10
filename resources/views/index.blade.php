@@ -1,1 +1,1 @@
-<h1>hello {{$tenant->name}} </h1>
+<h1>hello {{$tenant->name ?? ''}} </h1>

@@ -13,7 +13,7 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-\App\Tenant::getTenant(); 
+\App\Models\Tenant::getTenant(); 
 Route::get('/', function () {
     return view('index');
 });

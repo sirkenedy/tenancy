@@ -2,11 +2,13 @@
 
 namespace App\Models;
 
+use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
 
-
-class Tenant extends Model 
+class Tenant extends Model
 {
+    use HasFactory;
+
     protected $table= "tenants";
 
     public static function getTenant()
